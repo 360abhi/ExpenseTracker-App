@@ -1,0 +1,32 @@
+.expense-item-body {
+    padding-block: 4px;
+    padding-inline: 16px;
+    display: flex;
+    border: 1px solid black;
+    align-items: center;
+    border-radius: 10px;
+    margin-inline: 50px;
+    gap: 25%;
+    margin-block: 20px;
+}
+
+.expense-item-detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 60%;
+    color: rgb(255, 255, 255);
+    font-size: x-large;
+}
+
+.expense-item-date{
+    flex-basis: 50%;
+}
+
+.expense-item-price {
+    border: 2px solid rgb(120, 14, 191);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+    background-color: rgb(191, 57, 191);
+}
